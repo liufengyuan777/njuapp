@@ -11,7 +11,7 @@
 	<groupId>com.nju</groupId>
 	<artifactId>njuapp</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>app</name>
 	<description>Demo project for Spring Boot</description>
 
