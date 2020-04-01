@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0035b6fe-f264-41f7-80f7-b7d64dc560c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/absentlessonstudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/absentlessonstudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/appointmentrecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/appointmentrecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/attendlessonrecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/attendlessonrecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/attendlessonstudent.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/attendlessonstudent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/choicequestion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/choicequestion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/coursecommentrecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/coursecommentrecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/coursereviewrecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/coursereviewrecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/coursesummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/coursesummary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/lesson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/lesson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/lessoncommentrecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/lessoncommentrecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/selectcourserecord.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/selectcourserecord.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/simplequestion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/simplequestion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/teachcourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/teachcourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/uploadcourseware.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/uploadcourseware.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/uploadvideo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teacher/uploadvideo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +103,16 @@
       <option name="presentableId" value="Default" />
       <updated>1585754322024</updated>
       <workItem from="1585754323503" duration="428000" />
-      <workItem from="1585757409329" duration="299000" />
+      <workItem from="1585757409329" duration="1339000" />
     </task>
+    <task id="LOCAL-00001" summary="添加README">
+      <created>1585757826761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585757826761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加README" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加README" />
   </component>
 </project>
