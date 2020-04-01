@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>教辅系统</title>
+
+    <link rel="stylesheet" th:href="@{../../TeachingAssistantSystem/lib/element-ui/lib/theme-chalk/index.css}"/>
+    <link rel="stylesheet" th:href="@{../../TeachingAssistantSystem/lib/font/css/font-awesome.min.css}"/>
+    <link rel="stylesheet" th:href="@{../../TeachingAssistantSystem/admin/index/css/index.css}"/>
+</head>
+<body>
+<div id="app">
+
+    <el-menu  mode="horizontal":default-active="activeIndex" @select="handleSelect">
+        <el-menu-item index="0" id="logo">教辅系统</el-menu-item>
+        <el-menu-item index="1"><a href="/TeachingAssistantSystem/teacher">首页</a></el-menu-item>
+        <el-menu-item index="2"><a href="/TeachingAssistantSystem/teachcourse">我教授的课程</a></el-menu-item>
+        <el-menu-item index="3"><a href="/TeachingAssistantSystem/appointment">预约</a></el-menu-item>
+
+        <el-menu-item id="author" index="7">
+            <img class="el-tooltip" th:src="@{../../TeachingAssistantSystem/img/userlogo.jpeg}"/>
+            <el-dropdown>
+                <span class="el-dropdown-link">{{username}}<i class="el-icon-arrow-down el-icon--right"></i></span>
+                <el-dropdown-menu slot="dropdown">
+                    <el-dropdown-item divided><a href="/TeachingAssistantSystem/login">退出</a></el-dropdown-item>
+                </el-dropdown-menu>
+            </el-dropdown>
+        </el-menu-item>
+    </el-menu>
+
+    <div id="main">
+        <el-row :gutter="20">
+            <el-col :span="20" :offset="9">
+                <el-container>
+                    <div>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;南大软件学院教辅系统</h3>
+                    </div>
+                </el-container>
+            </el-col>
+        </el-row>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <el-container>
+            <el-footer>
+                <el-row :gutter="20">
+                    <el-col :span="8" :offset="10">
+                        <div class="footer-inner">
+                            <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+                                <span class="with-love">
+                                    <i class="fa fa-heartbeat"></i>
+                                </span>
+                                <span class="author" itemprop="copyrightHolder">软件学院</span>
+                            </div>
+                        </div>
+                    </el-col>
+                </el-row>
+            </el-footer>
+        </el-container>
+    </div>
+
+</div>
+
+</body>
+
+
+<script type="text/javascript" th:src="@{../../TeachingAssistantSystem/lib/vue/vue.js}"></script>
+<script type="text/javascript" th:src="@{../../TeachingAssistantSystem/lib/element-ui/lib/index.js}"></script>
+<script type="text/javascript" th:src="@{../../TeachingAssistantSystem/lib/vue/vue-resource.js}"></script>
+<script type="text/javascript" th:src="@{../../TeachingAssistantSystem/lib/vue/vuex.min.js}"></script>
+<script type="text/javascript" th:src="@{../../TeachingAssistantSystem/teacher/teacher/js/teacher.js}"></script>
+</html>
