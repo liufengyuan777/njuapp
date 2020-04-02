@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0035b6fe-f264-41f7-80f7-b7d64dc560c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +85,9 @@
       <updated>1585754322024</updated>
       <workItem from="1585754323503" duration="428000" />
       <workItem from="1585757409329" duration="1648000" />
-      <workItem from="1585766953902" duration="22000" />
+      <workItem from="1585766953902" duration="128000" />
+      <workItem from="1585767811155" duration="1115000" />
+      <workItem from="1585812948185" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="添加README">
       <created>1585757826761</created>
@@ -99,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585758967055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="打包方式">
+      <created>1585766991924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585766991925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加README" />
     <MESSAGE value="修改日期" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改日期" />
+    <MESSAGE value="打包方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包方式" />
   </component>
 </project>
