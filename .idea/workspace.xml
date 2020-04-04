@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0035b6fe-f264-41f7-80f7-b7d64dc560c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nju/app/admin/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nju/app/admin/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nju/app/teacher/controller/CoursewareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nju/app/teacher/controller/CoursewareController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +101,11 @@
       <workItem from="1585757409329" duration="1648000" />
       <workItem from="1585766953902" duration="128000" />
       <workItem from="1585767811155" duration="1115000" />
-      <workItem from="1585812948185" duration="868000" />
+      <workItem from="1585812948185" duration="1509000" />
+      <workItem from="1585922978356" duration="23000" />
+      <workItem from="1585984391362" duration="1659000" />
+      <workItem from="1585986531641" duration="46000" />
+      <workItem from="1585986830969" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="添加README">
       <created>1585757826761</created>
@@ -110,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585766991925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="打包方式">
+      <created>1585813843794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585813843795</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

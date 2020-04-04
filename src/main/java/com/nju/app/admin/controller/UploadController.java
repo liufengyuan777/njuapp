@@ -31,7 +31,9 @@ public class UploadController {
         String url = "static/classSchedule/";
         //String path = request.getSession().getServletContext().getRealPath(url);
         //String path = "/Users/shahao/Downloads/nju/classSchedule/";
-        String path = "D:/root/njuapp/classSchedule/";
+
+//        String path = "D:/root/njuapp/classSchedule/";
+        String path = "/home/lfy/njuapp/classSchedule";
         //String path = ClassUtils.getDefaultClassLoader().getResource("").getPath()+url;
 
         File filePath = new File(path);

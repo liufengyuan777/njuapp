@@ -81,7 +81,8 @@ public class CoursewareController {
         //String path = request.getSession().getServletContext().getRealPath(url);
         //String path = ClassUtils.getDefaultClassLoader().getResource("").getPath()+url;
 
-        String path = "/root/njuapp/courseware/";
+//        String path = "/root/njuapp/courseware/";
+        String path = "/home/lfy/njuapp/courseware";
 
         File filePath = new File(path);
         System.out.println("文件保存路径：" + filePath.getAbsolutePath());
